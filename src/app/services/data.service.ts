@@ -8,7 +8,7 @@ export class DataService {
   
   constructor(private http: HttpClient) {}
 
-  apiURL = "http://localhost/cocolime/inventorySys/restAPI/";
+  apiURL = "http://localhost/cocolime/SIA-POS/restAPI/";
 
   sendApiRequest(method, data) {
     return <any>(
